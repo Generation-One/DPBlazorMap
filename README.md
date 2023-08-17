@@ -1,6 +1,6 @@
-# DPBlazorMap.
+# GenOne.DPBlazorMap
 
-DP Blazor Map is a library for Blazor, which is a wrapper on top of the Leaflet js library.
+GenOne.DPBlazorMap is a fork of DP Blazor Map is a library for Blazor, which is a wrapper on top of the Leaflet js library.
 
 [![NuGet version (DPBlazorMapLibrary)](https://img.shields.io/nuget/v/DPBlazorMapLibrary)](https://www.nuget.org/packages/DPBlazorMapLibrary/)
 
