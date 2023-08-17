@@ -13,4 +13,8 @@ namespace DPBlazorMapLibrary
         [JsonPropertyName("geometry")]
         public Geometry Geometry { get; set; }
     }
+
+    [JsonSerializable(typeof(Feature))]
+    internal partial class FeatureSerializerContext : JsonSerializerContext
+    { }
 }

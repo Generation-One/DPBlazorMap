@@ -1,11 +1,13 @@
-﻿namespace DPBlazorMapLibrary
+﻿using System.Text.Json.Serialization;
+
+namespace DPBlazorMapLibrary
 {
     public class IconOptions
     {
         /// <summary>
         /// (required) The URL to the icon image (absolute or relative to your script path).
         /// </summary>
-        public string IconUrl { get; init; } = null;
+        public string IconUrl { get; init; } = null!;
 
         /// <summary>
         /// The URL to a retina sized version of the icon image (absolute or relative to your script path). Used for Retina screen devices.
@@ -55,4 +57,8 @@
         /// </summary>
         public string ClassName { get; init; } = null;
     }
+
+    [JsonSerializable(typeof(IconOptions))]
+    internal partial class IconOptionsSerializerContext : JsonSerializerContext
+    { }
 }

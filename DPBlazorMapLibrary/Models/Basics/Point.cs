@@ -1,4 +1,6 @@
-﻿namespace DPBlazorMapLibrary
+﻿using System.Text.Json.Serialization;
+
+namespace DPBlazorMapLibrary
 {
     public class Point
     {
@@ -11,4 +13,8 @@
         public int X { get; }
         public int Y { get; }
     }
+
+    [JsonSerializable(typeof(Point))]
+    internal partial class PointSerializerContext : JsonSerializerContext
+    { }
 }

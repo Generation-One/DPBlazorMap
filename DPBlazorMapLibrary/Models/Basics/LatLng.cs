@@ -1,4 +1,6 @@
-﻿namespace DPBlazorMapLibrary
+﻿using System.Text.Json.Serialization;
+
+namespace DPBlazorMapLibrary
 {
     public class LatLng
     {
@@ -77,4 +79,9 @@
             return GetDistanceToPointInKillometers(to) * 1000;
         }
     }
+
+    [JsonSourceGenerationOptions(PropertyNamingPolicy = JsonKnownNamingPolicy.CamelCase)]
+    [JsonSerializable(typeof(LatLng))]
+    internal partial class LatLngSerializerContext : JsonSerializerContext
+    { }
 }

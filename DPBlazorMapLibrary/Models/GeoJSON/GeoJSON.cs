@@ -28,4 +28,8 @@ namespace DPBlazorMapLibrary
             return geoJson;
         }
     }
+
+    [JsonSerializable(typeof(GeoJSON))]
+    internal partial class GeoJSONSerializerContext : JsonSerializerContext
+    { }
 }

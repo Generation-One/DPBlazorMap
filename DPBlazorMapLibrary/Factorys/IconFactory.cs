@@ -7,6 +7,8 @@ namespace DPBlazorMapLibrary
     {
         private const string _createIconJsFunction = "L.icon";
 
+        private const string _createDivIconJsFunction = "L.divIcon";
+
         private readonly IIconFactoryJsInterop _iconFactoryJsInterop;
         private readonly IJSRuntime _jsRuntime;
         public IconFactory(
@@ -30,5 +32,11 @@ namespace DPBlazorMapLibrary
             return new Icon(jsReference);
         }
         #endregion
+
+        public async Task<Icon> CreateDivIcon(DivIconOptions options)
+        {
+            IJSObjectReference jsReference = await _jsRuntime.InvokeAsync<IJSObjectReference>(_createDivIconJsFunction, options);
+            return new Icon(jsReference);
+        }
     }
 }

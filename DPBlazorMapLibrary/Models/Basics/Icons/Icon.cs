@@ -1,4 +1,5 @@
 ﻿using Microsoft.JSInterop;
+using System.Text.Json.Serialization;
 
 namespace DPBlazorMapLibrary
 {
@@ -8,5 +9,11 @@ namespace DPBlazorMapLibrary
         {
             JsReference = jsReference;
         }
+
+        
     }
+
+    [JsonSerializable(typeof(Icon))]
+    internal partial class IconSerializerContext : JsonSerializerContext
+    { }
 }

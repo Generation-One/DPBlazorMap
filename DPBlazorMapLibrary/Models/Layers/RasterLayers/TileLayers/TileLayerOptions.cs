@@ -13,10 +13,12 @@
         /// </summary>
         public float MaxZoom { get; set; } = 18;
 
+        public float MaxNativeZoom { get; set; } = 18;
+
         /// <summary>
         /// URL to the tile image to show in place of the tile that failed to load.
         /// </summary>
-        public string ErrorTileUrl { get; set; }
+        public string ErrorTileUrl { get; set; } = default!;
 
         /// <summary>
         /// If set to true, the zoom number used in tile URLs will be reversed (maxZoom - zoom instead of zoom)
@@ -33,7 +35,7 @@
         /// </summary>
         public bool DetectRetina { get; set; }
 
-        public string AccessToken { get; set; }
+        public string AccessToken { get; set; } = default!;
 
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace DPBlazorMapLibrary
+﻿using System.Text.Json.Serialization;
+
+namespace DPBlazorMapLibrary
 {
     public class LatLngBounds
     {
@@ -20,4 +22,8 @@
             return new List<LatLng>() { SouthWest, NorthEast };
         }
     }
+
+    [JsonSerializable(typeof(LatLngBounds))]
+    internal partial class LatLngBoundsSerializerContext : JsonSerializerContext
+    { }
 }

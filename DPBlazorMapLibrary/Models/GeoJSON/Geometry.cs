@@ -10,4 +10,8 @@ namespace DPBlazorMapLibrary
         [JsonPropertyName("coordinates")]
         public object[][][] Coordinates { get; set; }
     }
+
+    [JsonSerializable(typeof(Geometry))]
+    internal partial class GeometrySerializerContext : JsonSerializerContext
+    { }
 }

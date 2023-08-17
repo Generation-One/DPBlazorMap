@@ -10,4 +10,8 @@ namespace DPBlazorMapLibrary
         [JsonPropertyName("properties")]
         public object Properties { get; set; }
     }
+
+    [JsonSerializable(typeof(Crs))]
+    internal partial class CrsSerializerContext : JsonSerializerContext
+    { }
 }

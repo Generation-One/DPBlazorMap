@@ -1,4 +1,6 @@
-﻿namespace DPBlazorMapLibrary
+﻿using System.Text.Json.Serialization;
+
+namespace DPBlazorMapLibrary
 {
     public class MapOptions
     {
@@ -85,4 +87,9 @@
         //TODO: add Mouse wheel options
         //TODO: add Touch interaction options
     }
+
+    [JsonSourceGenerationOptions(PropertyNamingPolicy = JsonKnownNamingPolicy.CamelCase)]
+    [JsonSerializable(typeof(MapOptions))]
+    internal partial class MapOptionsSerializerContext : JsonSerializerContext
+    { }
 }

@@ -1,5 +1,6 @@
 ﻿using DPBlazorMapLibrary.JsInterops.Events;
 using Microsoft.JSInterop;
+using System.Text.Json.Serialization;
 
 namespace DPBlazorMapLibrary
 {
@@ -90,4 +91,8 @@ namespace DPBlazorMapLibrary
             }
         }
     }
+
+    [JsonSerializable(typeof(Evented))]
+    public partial class EventedSerializerContext : JsonSerializerContext
+    { }
 }

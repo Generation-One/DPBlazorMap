@@ -11,7 +11,7 @@ namespace DPBlazorMapLibrary
             Pane = "markerPane";
         }
 
-        private Icon _iconRef;
+        private Icon _iconRef = default!;
 
         [JsonIgnore]
         public Icon IconRef
@@ -34,7 +34,7 @@ namespace DPBlazorMapLibrary
         /// <summary>
         /// Icon instance to use for rendering the marker. See Icon documentation for details on how to customize the marker icon. If not specified, a common instance of L.Icon.Default is used.
         /// </summary>
-        public IJSObjectReference Icon { get; init; }
+        public IJSObjectReference Icon { get; init; } = default!;
 
         /// <summary>
         /// Whether the marker can be tabbed to with a keyboard and clicked by pressing enter.
@@ -44,12 +44,12 @@ namespace DPBlazorMapLibrary
         /// <summary>
         /// Text for the browser tooltip that appear on marker hover (no tooltip by default).
         /// </summary>
-        public string Title { get; init; }
+        public string Title { get; init; } = default!;
 
         /// <summary>
         /// Text for the alt attribute of the icon image (useful for accessibility).
         /// </summary>
-        public string Alt { get; init; }
+        public string Alt { get; init; } = default!;
 
         /// <summary>
         /// By default, marker images zIndex is set automatically based on its latitude. Use this option if you want to put the marker on top of all others (or below), specifying a high value like 1000 (or high negative value, respectively).
@@ -101,4 +101,8 @@ namespace DPBlazorMapLibrary
 
         #endregion
     }
+
+    [JsonSerializable(typeof(MarkerOptions))]
+    internal partial class MarkerOptionsSerializerContext : JsonSerializerContext
+    { }
 }

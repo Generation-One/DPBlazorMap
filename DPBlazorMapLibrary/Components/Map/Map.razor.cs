@@ -8,15 +8,15 @@ namespace DPBlazorMapLibrary
     public partial class Map
     {
         [Inject]
-        public IJSRuntime JsRuntime { get; set; }
+        public IJSRuntime JsRuntime { get; set; } = default!;
 
         [Inject]
-        public IMapJsInterop MapJsInterop { get; set; }
+        public IMapJsInterop MapJsInterop { get; set; } = default!;
 
         [Inject]
-        public IEventedJsInterop EventedJsInterop { get; set; }
+        public IEventedJsInterop EventedJsInterop { get; set; } = default!;
 
-        public MapEvented MapEvented { get; set; }
+        public MapEvented MapEvented { get; set; } = default!;
 
         [Parameter]
         public string DivId { get; set; } = "mapId";
@@ -26,12 +26,12 @@ namespace DPBlazorMapLibrary
 
 
         [Parameter]
-        public MapOptions MapOptions { get; set; }
+        public MapOptions MapOptions { get; set; } = default!;
 
         [Parameter]
         public EventCallback AfterRender { get; set; }
 
-        public IJSObjectReference MapReference { get; set; }
+        public IJSObjectReference MapReference { get; set; } = default!;
 
         private const string getCenter = "getCenter";
         private const string getZoom = "getZoom";
