@@ -29,12 +29,7 @@ jobs:
       run: dotnet test --no-build --verbosity normal --configuration Release
       
     - name: Pack
-      run: dotnet pack ./DPBlazorMapLibrary/DPBlazorMapLibrary.csproj --output nupkgs --no-build --configuration Release -p:PackageVersion=${{ github.event.release.tag_name }}
-
-    - name: Rename pack
-      run: |
-        cd ./nupkgs
-        mv DPBlazorMapLibrary.${{ github.event.release.tag_name }}.nupkg GenOne.DPBlazorMap.${{ github.event.release.tag_name }}.nupkg
+      run: dotnet pack ./GenOne.DPBlazorMapLibrary/GenOne.DPBlazorMapLibrary.csproj --output nupkgs --no-build --configuration Release -p:PackageVersion=${{ github.event.release.tag_name }}
       
     - name: Push
-      run: dotnet nuget push ./nupkgs/GenOne.DPBlazorMap.${{ github.event.release.tag_name }}.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.NUGET_API_KEY }}
+      run: dotnet nuget push ./nupkgs/GenOne.DPBlazorMapLibrary.${{ github.event.release.tag_name }}.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.NUGET_API_KEY }}
