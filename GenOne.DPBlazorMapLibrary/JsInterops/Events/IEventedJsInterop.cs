@@ -1,6 +1,7 @@
-﻿using Microsoft.JSInterop;
+﻿using GenOne.DPBlazorMapLibrary.Models.Events;
+using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary.JsInterops.Events
+namespace GenOne.DPBlazorMapLibrary.JsInterops.Events
 {
     public interface IEventedJsInterop
     {

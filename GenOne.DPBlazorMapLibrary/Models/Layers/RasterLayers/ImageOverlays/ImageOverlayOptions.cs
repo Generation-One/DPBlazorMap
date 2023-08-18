@@ -1,4 +1,4 @@
-﻿namespace DPBlazorMapLibrary
+﻿namespace GenOne.DPBlazorMapLibrary.Models.Layers.RasterLayers.ImageOverlays
 {
     public class ImageOverlayOptions : InteractiveLayerOptions
     {

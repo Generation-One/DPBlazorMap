@@ -1,6 +1,7 @@
 ﻿using System.Text.Json.Serialization;
+using GenOne.DPBlazorMapLibrary.Models.Basics;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Events
 {
     public class MouseEvent : Event
     {

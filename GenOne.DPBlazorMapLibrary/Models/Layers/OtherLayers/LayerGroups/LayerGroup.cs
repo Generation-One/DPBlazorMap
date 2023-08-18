@@ -1,6 +1,6 @@
 ﻿using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Layers.OtherLayers.LayerGroups
 {
     public class LayerGroup : Layer
     {

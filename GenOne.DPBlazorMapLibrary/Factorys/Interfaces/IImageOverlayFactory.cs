@@ -1,4 +1,8 @@
-﻿namespace DPBlazorMapLibrary
+﻿using GenOne.DPBlazorMapLibrary.Components.Map;
+using GenOne.DPBlazorMapLibrary.Models.Basics;
+using GenOne.DPBlazorMapLibrary.Models.Layers.RasterLayers.ImageOverlays;
+
+namespace GenOne.DPBlazorMapLibrary.Factorys.Interfaces
 {
     internal interface IImageOverlayFactory
     {

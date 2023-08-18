@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.GeoJSON
 {
     public class Feature
     {

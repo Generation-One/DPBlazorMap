@@ -1,6 +1,8 @@
 ﻿using System.Text.Json.Serialization;
+using GenOne.DPBlazorMapLibrary.Models.Basics;
+using GenOne.DPBlazorMapLibrary.Models.Layers;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Maps
 {
     public class MapOptions
     {

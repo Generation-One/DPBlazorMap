@@ -1,6 +1,7 @@
-﻿using Microsoft.JSInterop;
+﻿using GenOne.DPBlazorMapLibrary.Models.Layers.OtherLayers.FeatureGroups;
+using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Layers.OtherLayers.GeoJSON
 {
     /// <summary>
     /// Represents a GeoJSON object or an array of GeoJSON objects. Allows you to parse GeoJSON data and display it on the map. Extends FeatureGroup.

@@ -1,7 +1,9 @@
-﻿using DPBlazorMapLibrary.JsInterops.LeftletDefaultIconFactories;
+﻿using GenOne.DPBlazorMapLibrary.Factorys.Interfaces;
+using GenOne.DPBlazorMapLibrary.JsInterops.LeftletDefaultIconFactories;
+using GenOne.DPBlazorMapLibrary.Models.Basics.Icons;
 using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Factorys
 {
     public class IconFactory : IIconFactory
     {

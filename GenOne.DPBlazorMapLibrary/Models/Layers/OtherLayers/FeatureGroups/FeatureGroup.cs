@@ -1,11 +1,7 @@
-﻿using Microsoft.JSInterop;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using GenOne.DPBlazorMapLibrary.Models.Layers.OtherLayers.LayerGroups;
+using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Layers.OtherLayers.FeatureGroups
 {
     /// <summary>
     /// Extended LayerGroup that makes it easier to do the same thing to all its member layers:

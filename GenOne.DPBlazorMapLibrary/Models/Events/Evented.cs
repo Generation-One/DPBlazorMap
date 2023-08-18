@@ -1,8 +1,9 @@
-﻿using DPBlazorMapLibrary.JsInterops.Events;
+﻿using System.Text.Json.Serialization;
+using GenOne.DPBlazorMapLibrary.JsInterops.Events;
+using GenOne.DPBlazorMapLibrary.Models.BaseJsReferences;
 using Microsoft.JSInterop;
-using System.Text.Json.Serialization;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Events
 {
     public class Evented : JsReferenceBase
     {

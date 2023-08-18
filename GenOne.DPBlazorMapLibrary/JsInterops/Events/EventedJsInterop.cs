@@ -1,7 +1,8 @@
-﻿using DPBlazorMapLibrary.JsInterops.Base;
+﻿using GenOne.DPBlazorMapLibrary.JsInterops.Base;
+using GenOne.DPBlazorMapLibrary.Models.Events;
 using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary.JsInterops.Events
+namespace GenOne.DPBlazorMapLibrary.JsInterops.Events
 {
     public class EventedJsInterop : BaseJsInterop, IEventedJsInterop
     {

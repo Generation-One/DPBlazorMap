@@ -1,4 +1,4 @@
-﻿namespace DPBlazorMapLibrary
+﻿namespace GenOne.DPBlazorMapLibrary.Models.Layers
 {
     public class InteractiveLayerOptions : LayerOptions
     {

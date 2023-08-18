@@ -1,4 +1,4 @@
-﻿namespace DPBlazorMapLibrary.JsInterops.Base
+﻿namespace GenOne.DPBlazorMapLibrary.JsInterops.Base
 {
     public interface IBaseJsInterop
     {

@@ -1,4 +1,6 @@
-﻿namespace DPBlazorMapLibrary
+﻿using GenOne.DPBlazorMapLibrary.Models.Basics.Icons;
+
+namespace GenOne.DPBlazorMapLibrary.Factorys.Interfaces
 {
     public interface IIconFactory
     {

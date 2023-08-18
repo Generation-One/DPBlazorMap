@@ -1,4 +1,4 @@
-﻿namespace DPBlazorMapLibrary
+﻿namespace GenOne.DPBlazorMapLibrary.Models.Layers.RasterLayers.TileLayers
 {
     public class TileLayerOptions : GridLayerOptions
     {

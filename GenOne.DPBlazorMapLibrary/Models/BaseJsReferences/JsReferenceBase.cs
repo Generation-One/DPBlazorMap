@@ -1,6 +1,6 @@
 ﻿using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.BaseJsReferences
 {
     /// <summary>
     /// Base class for a reference to a js object

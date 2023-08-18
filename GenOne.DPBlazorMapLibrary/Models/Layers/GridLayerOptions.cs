@@ -1,6 +1,6 @@
-﻿using System.Drawing;
+﻿using GenOne.DPBlazorMapLibrary.Models.Basics;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Layers
 {
     public class GridLayerOptions : LayerOptions
     {

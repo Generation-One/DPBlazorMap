@@ -1,6 +1,7 @@
-﻿using Microsoft.JSInterop;
+﻿using GenOne.DPBlazorMapLibrary.Models.Basics;
+using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.Paths
 {
     /// <summary>
     /// An abstract class that contains options and constants shared between vector overlays (Polygon, Polyline, Circle). Do not use it directly.

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.CircleMarkers;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.Circles
 {
     public class CircleOptions : CircleMarkerOptions
     {

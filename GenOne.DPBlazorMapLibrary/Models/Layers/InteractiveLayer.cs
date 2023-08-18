@@ -1,4 +1,4 @@
-﻿namespace DPBlazorMapLibrary
+﻿namespace GenOne.DPBlazorMapLibrary.Models.Layers
 {
     /// <summary>
     /// Some Layers can be made interactive - when the user interacts with such a layer, mouse events like click and mouseover can be handled.

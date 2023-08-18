@@ -1,6 +1,9 @@
-﻿using Microsoft.JSInterop;
+﻿using GenOne.DPBlazorMapLibrary.Components.Map;
+using GenOne.DPBlazorMapLibrary.Models.Basics;
+using GenOne.DPBlazorMapLibrary.Models.Events;
+using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Layers
 {
     /// <summary>
     /// A set of methods from the Layer base class that all Leaflet layers use.

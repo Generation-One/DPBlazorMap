@@ -1,6 +1,6 @@
 ﻿using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary.JsInterops.LeftletDefaultIconFactories
+namespace GenOne.DPBlazorMapLibrary.JsInterops.LeftletDefaultIconFactories
 {
     public interface IIconFactoryJsInterop
     {

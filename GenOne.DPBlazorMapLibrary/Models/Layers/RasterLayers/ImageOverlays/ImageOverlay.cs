@@ -1,7 +1,8 @@
-﻿using DPBlazorMapLibrary.JsInterops.Events;
+﻿using GenOne.DPBlazorMapLibrary.JsInterops.Events;
+using GenOne.DPBlazorMapLibrary.Models.Basics;
 using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Layers.RasterLayers.ImageOverlays
 {
     /// <summary>
     /// Used to load and display a single image over specific bounds of the map. Extends Layer.

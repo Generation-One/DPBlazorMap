@@ -1,4 +1,8 @@
-﻿namespace DPBlazorMapLibrary
+﻿using GenOne.DPBlazorMapLibrary.Components.Map;
+using GenOne.DPBlazorMapLibrary.Models.Basics;
+using GenOne.DPBlazorMapLibrary.Models.Layers.RasterLayers.VideoOverlays;
+
+namespace GenOne.DPBlazorMapLibrary.Factorys.Interfaces
 {
     public interface IVideoOverlayFactory
     {

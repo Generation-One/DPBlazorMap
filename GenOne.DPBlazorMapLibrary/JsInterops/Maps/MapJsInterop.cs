@@ -1,9 +1,8 @@
-﻿using DPBlazorMapLibrary.JsInterops.Base;
+﻿using GenOne.DPBlazorMapLibrary.JsInterops.Base;
+using GenOne.DPBlazorMapLibrary.Models.Maps;
 using Microsoft.JSInterop;
-using System.Runtime.InteropServices.JavaScript;
-using System.Text.Json;
 
-namespace DPBlazorMapLibrary.JsInterops.Maps
+namespace GenOne.DPBlazorMapLibrary.JsInterops.Maps
 {
     public class MapJsInterop : BaseJsInterop, IMapJsInterop
     {

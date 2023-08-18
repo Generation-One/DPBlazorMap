@@ -1,4 +1,4 @@
-﻿namespace DPBlazorMapLibrary
+﻿namespace GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.Paths
 {
     public class PathOptions : InteractiveLayerOptions
     {

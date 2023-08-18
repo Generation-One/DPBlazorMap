@@ -1,4 +1,4 @@
-﻿namespace DPBlazorMapLibrary
+﻿namespace GenOne.DPBlazorMapLibrary.Models.Layers.OtherLayers.GeoJSON
 {
     public class GeoJSONOptions : LayerOptions
     {

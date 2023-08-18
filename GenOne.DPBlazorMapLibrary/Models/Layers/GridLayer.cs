@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-
-namespace DPBlazorMapLibrary
+﻿namespace GenOne.DPBlazorMapLibrary.Models.Layers
 {
     /// <summary>
     /// Generic class for handling a tiled grid of HTML elements.

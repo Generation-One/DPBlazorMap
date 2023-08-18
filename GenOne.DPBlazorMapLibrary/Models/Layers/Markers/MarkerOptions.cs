@@ -1,7 +1,9 @@
-﻿using Microsoft.JSInterop;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
+using GenOne.DPBlazorMapLibrary.Models.Basics;
+using GenOne.DPBlazorMapLibrary.Models.Basics.Icons;
+using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Layers.Markers
 {
     public class MarkerOptions : InteractiveLayerOptions
     {

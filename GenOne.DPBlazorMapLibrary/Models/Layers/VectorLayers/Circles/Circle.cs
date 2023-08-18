@@ -1,7 +1,8 @@
-﻿using DPBlazorMapLibrary.JsInterops.Events;
+﻿using GenOne.DPBlazorMapLibrary.JsInterops.Events;
+using GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.CircleMarkers;
 using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.Circles
 {
     /// <summary>
     /// A class for drawing circle overlays on a map. Extends CircleMarker.

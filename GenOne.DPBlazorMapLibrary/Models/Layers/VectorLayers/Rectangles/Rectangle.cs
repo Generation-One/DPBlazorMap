@@ -1,7 +1,9 @@
-﻿using DPBlazorMapLibrary.JsInterops.Events;
+﻿using GenOne.DPBlazorMapLibrary.JsInterops.Events;
+using GenOne.DPBlazorMapLibrary.Models.Basics;
+using GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.Polygons;
 using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.Rectangles
 {
     /// <summary>
     /// A class for drawing rectangle overlays on a map. Extends Polygon.

@@ -1,4 +1,6 @@
-﻿namespace DPBlazorMapLibrary
+﻿using GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.Paths;
+
+namespace GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.Polylines
 {
     public class PolylineOptions : PathOptions
     {

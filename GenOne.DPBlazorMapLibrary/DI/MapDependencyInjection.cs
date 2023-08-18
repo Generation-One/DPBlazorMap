@@ -1,9 +1,11 @@
-﻿using DPBlazorMapLibrary.JsInterops.Events;
-using DPBlazorMapLibrary.JsInterops.LeftletDefaultIconFactories;
-using DPBlazorMapLibrary.JsInterops.Maps;
+﻿using GenOne.DPBlazorMapLibrary.Factorys;
+using GenOne.DPBlazorMapLibrary.Factorys.Interfaces;
+using GenOne.DPBlazorMapLibrary.JsInterops.Events;
+using GenOne.DPBlazorMapLibrary.JsInterops.LeftletDefaultIconFactories;
+using GenOne.DPBlazorMapLibrary.JsInterops.Maps;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.DI
 {
     public static class MapDependencyInjection
     {

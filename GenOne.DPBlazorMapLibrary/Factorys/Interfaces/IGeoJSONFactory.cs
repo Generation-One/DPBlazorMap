@@ -1,4 +1,7 @@
-﻿namespace DPBlazorMapLibrary
+﻿using GenOne.DPBlazorMapLibrary.Components.Map;
+using GenOne.DPBlazorMapLibrary.Models.Layers.OtherLayers.GeoJSON;
+
+namespace GenOne.DPBlazorMapLibrary.Factorys.Interfaces
 {
     public interface IGeoJSONFactory
     {

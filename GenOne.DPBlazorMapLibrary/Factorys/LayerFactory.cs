@@ -1,7 +1,20 @@
-﻿using DPBlazorMapLibrary.JsInterops.Events;
+﻿using GenOne.DPBlazorMapLibrary.Components.Map;
+using GenOne.DPBlazorMapLibrary.Factorys.Interfaces;
+using GenOne.DPBlazorMapLibrary.JsInterops.Events;
+using GenOne.DPBlazorMapLibrary.Models.Basics;
+using GenOne.DPBlazorMapLibrary.Models.Layers.Markers;
+using GenOne.DPBlazorMapLibrary.Models.Layers.OtherLayers.GeoJSON;
+using GenOne.DPBlazorMapLibrary.Models.Layers.RasterLayers.ImageOverlays;
+using GenOne.DPBlazorMapLibrary.Models.Layers.RasterLayers.TileLayers;
+using GenOne.DPBlazorMapLibrary.Models.Layers.RasterLayers.VideoOverlays;
+using GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.CircleMarkers;
+using GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.Circles;
+using GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.Polygons;
+using GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.Polylines;
+using GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.Rectangles;
 using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Factorys
 {
     public class LayerFactory : IMarkerFactory,
                                 ITileLayerFactory,

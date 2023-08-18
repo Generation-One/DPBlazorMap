@@ -1,7 +1,8 @@
-﻿using DPBlazorMapLibrary.JsInterops.Events;
+﻿using GenOne.DPBlazorMapLibrary.JsInterops.Events;
+using GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.Polylines;
 using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.Polygons
 {
     /// <summary>
     /// A class for drawing polygon overlays on a map. Extends Polyline.

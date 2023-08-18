@@ -1,9 +1,12 @@
-﻿using DPBlazorMapLibrary.JsInterops.Events;
-using DPBlazorMapLibrary.JsInterops.Maps;
+﻿using GenOne.DPBlazorMapLibrary.JsInterops.Events;
+using GenOne.DPBlazorMapLibrary.JsInterops.Maps;
+using GenOne.DPBlazorMapLibrary.Models.Basics;
+using GenOne.DPBlazorMapLibrary.Models.Events;
+using GenOne.DPBlazorMapLibrary.Models.Maps;
 using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Components.Map
 {
     public partial class Map
     {

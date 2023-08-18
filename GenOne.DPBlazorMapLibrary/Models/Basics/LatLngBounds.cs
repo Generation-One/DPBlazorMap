@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Basics
 {
     public class LatLngBounds
     {

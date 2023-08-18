@@ -1,7 +1,8 @@
-﻿using Microsoft.JSInterop;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
+using GenOne.DPBlazorMapLibrary.Models.BaseJsReferences;
+using Microsoft.JSInterop;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Basics.Icons
 {
     public class Icon : JsReferenceBase
     {

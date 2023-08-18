@@ -1,7 +1,9 @@
-﻿using DPBlazorMapLibrary.JsInterops.Events;
+﻿using GenOne.DPBlazorMapLibrary.JsInterops.Events;
+using GenOne.DPBlazorMapLibrary.Models.Basics;
 using Microsoft.JSInterop;
+using Path = GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.Paths.Path;
 
-namespace DPBlazorMapLibrary
+namespace GenOne.DPBlazorMapLibrary.Models.Layers.VectorLayers.CircleMarkers
 {
     /// <summary>
     /// A circle of a fixed size with radius specified in pixels. Extends Path.

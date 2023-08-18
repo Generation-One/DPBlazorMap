@@ -1,4 +1,6 @@
-﻿namespace DPBlazorMapLibrary
+﻿using GenOne.DPBlazorMapLibrary.Models.Layers.RasterLayers.ImageOverlays;
+
+namespace GenOne.DPBlazorMapLibrary.Models.Layers.RasterLayers.VideoOverlays
 {
     public class VideoOverlayOptions : ImageOverlayOptions
     {
