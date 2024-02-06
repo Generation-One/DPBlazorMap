@@ -56,7 +56,7 @@ namespace GenOne.DPBlazorMapLibrary.Models.Events
             await On(_contextMenuJsFunction, callback);
         }
 
-        private async Task On(string eventType, Func<MouseEvent, Task> callback)
+        public async Task On(string eventType, Func<MouseEvent, Task> callback)
         {
             if (this.MouseEvents.ContainsKey(eventType))
             {
